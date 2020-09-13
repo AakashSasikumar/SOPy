@@ -46,13 +46,14 @@ class Document():
             what this means.
         kwargs: dict
             All the variable names mentioned in the templates and their values
-        
+
         Returns
         -------
         rendered_document: str
             The final version of the document
         """
-        template = Environment(loader=FileSystemLoader(self.template_location)).from_string(self.document)
+        loader = FileSystemLoader(self.template_location)
+        template = Environment(loader=loader).from_string(self.document)
         self.rendered_document = template.render(**kwargs)
         return self.rendered_document
 
