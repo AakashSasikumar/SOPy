@@ -1,4 +1,6 @@
 from jinja2 import Environment, FileSystemLoader
+import bs4
+import requests
 
 
 class Document():
@@ -56,9 +58,7 @@ class Document():
         template = Environment(loader=loader).from_string(self.document)
         document = template.render(**kwargs)
         if gizooglify:
-            # TODO: Implement gizooglification
-            # document = self.gizooglify(self.rendered_document)
-            pass
+            document = self.gizooglify(document)
         self.rendered_document = document
         return self.rendered_document
 
@@ -76,3 +76,27 @@ class Document():
         """
         with open(location, "w+") as doc:
             doc.write(self.rendered_document)
+
+    def gizooglify(self, text):
+        """
+        Gizoogles a given piece of text using https://gizoogle.net
+
+        Parameters
+        ----------
+        text: str
+            The text which is to be converted
+
+
+        Returns
+        -------
+        text: str
+            The gizoogled version of the text
+        """
+
+        params = {"translatetext": text}
+        target_url = "http://www.gizoogle.net/textilizer.php"
+        response = requests.post(target_url, data=params)
+        soup = bs4.BeautifulSoup(response.content, "html.parser")
+
+        # Hacky, but consistent.
+        return soup.text.split("Advertise")[1].split('Use')[0].strip()
