@@ -54,7 +54,12 @@ class Document():
         """
         loader = FileSystemLoader(self.template_location)
         template = Environment(loader=loader).from_string(self.document)
-        self.rendered_document = template.render(**kwargs)
+        document = template.render(**kwargs)
+        if gizooglify:
+            # TODO: Implement gizooglification
+            # document = self.gizooglify(self.rendered_document)
+            pass
+        self.rendered_document = document
         return self.rendered_document
 
     def save_file(self, location):
