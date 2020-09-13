@@ -2,6 +2,7 @@
 
 A package used to make writing SOPs for different programs easier. No more do you have to maintain separate copies and edit each and every one by one when you make minor changes. With the templating system of SOPy, you can write all of your SOPs at once.
 
+
 ## Setup
 
 ### Requirements
@@ -81,7 +82,7 @@ Now that we have the basic structure finished, lets take a look at how to popula
 
     sop.save_file("final_sop.txt")
     ```
-
+    
     Note how you can specify where all your templates are in the template_location argument. You don't have to follow the folder structure mentioned above, you can structure it however you want to.
 
     Running the above python code will render the final version of the SOP after substituting in all the variable names. Heres what the final output looks like.
@@ -95,3 +96,17 @@ Now that we have the basic structure finished, lets take a look at how to popula
     ```
 
 > Note: You aren't limited to creating just two templates. You can create as many templates as you want, just make sure you include them properly in the final SOP file.
+
+## Gizoogle
+
+Are you tired of writing your SOP in a professional manner always? Enter [Gizoogle](http://www.gizoogle.net/). With this tool, you can make your SOP as if Snoop Dog had written it.
+
+Here is the "Gizooglified" version of the above example,
+
+```text
+Introduce yo ass here, so peek-a-boo, clear tha way, I be comin' thru fo'sho fo' realz. Add all tha crap bout why you wanna pursue graduate studies yo. Hence, tha MS n' Stanford Universitizzle is tha ideal fit fo' mah dirty ass.
+
+I straight-up ludd dis program. I'ma be tha happiest thug on earth if I git dis program. Please let me in. I aint talkin' bout chicken n' gravy biatch. LET ME IN!!!.
+
+In conclusion, I wanna study all up in tha Stanford University. Blah blah blah, you git tha idea.
+```
