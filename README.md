@@ -1,6 +1,6 @@
 # SOPy - Statement of Python
 
-A package used to make writing SOPs for different programs easier. No more do you have to maintain separate copies and edit each and every one by one when you make minor changes. With the templating system of SOPy, you can write all of your SOPs at once.
+A package used to make writing SOPs for different programs easier. No more do you have to maintain separate copies and edit each one whenever you make minor changes. With the templating system of SOPy, you can write all of your SOPs at once.
 
 ## Setup
 
@@ -108,7 +108,7 @@ Now that we have the basic structure finished, lets take a look at how to popula
 
 ## Gizoogle
 
-Are you tired of writing your SOP in a professional manner always? Enter [Gizoogle](http://www.gizoogle.net/). With this tool, you can make your SOP as if Snoop Dog had written it.
+Wanna give your SOP a funny twist? We use [Gizoogle](http://www.gizoogle.net/) to make your SOP as if Snoop Dog had written it.
 
 Here is the "Gizooglified" version of the above example,
 
@@ -139,6 +139,8 @@ sop.render_document(program_name="MS",
 
 sop.save_file("final_sop.txt")
 ```
+PS: Though professors might find this amusing and may give you points for humour, we cannot guarantee that this version of your SOP would get you into an academic institute. (It might get you into other types of "institutes" *nudge* *nudge* *wink* *wink*)
+
 
 ## Credits
 
