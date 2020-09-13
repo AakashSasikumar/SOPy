@@ -4,16 +4,12 @@ A package used to make writing SOPs for different programs easier. No more do yo
 
 ## Setup
 
-### Requirements
+1. Clone the repository
+2. Run the below code from the cloned repo
 
-1. Python3
-2. Jinja2 Template Engine
-
-To install jinja,
-
-``` bash
-pip install jinja2
-```
+    ```bash
+    pip install -e .
+    ```
 
 ## Usage
 
@@ -72,7 +68,7 @@ Now that we have the basic structure finished, lets take a look at how to popula
 4. Rendering it
 
     ```python
-    from document import Document
+    from sopy import Document
 
     sop = Document("sops/sop.txt", template_location="sops")
 
@@ -113,7 +109,7 @@ In conclusion, I wanna study all up in tha Stanford University. Blah blah blah, 
 Here is how you would "gizooglify" your SOP,
 
 ```python
-from document import Document
+from sopy import Document
 
 sop = Document("sops/sop.txt", template_location="sops")
 
