@@ -1,7 +1,12 @@
 from setuptools import setup
 
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(name='sopy',
-      version='1.0',
+      version='1.1',
       description='A neat way to write SOPs using python',
       url='https://github.com/AakashSasikumar/SOPy',
       author='Aakash Sasikumar and Sourav Johar',
@@ -12,4 +17,7 @@ setup(name='sopy',
           "jinja2",
           "beautifulsoup4"
       ],
-      zip_safe=False)
+      zip_safe=False,
+      long_description=long_description,
+      long_description_content_type='text/markdown'
+      )
