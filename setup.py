@@ -15,7 +15,8 @@ setup(name='sopy',
       packages=find_packages(),
       install_requires=[
           "jinja2",
-          "beautifulsoup4"
+          "beautifulsoup4",
+          "requests"
       ],
       zip_safe=False,
       long_description=long_description,
