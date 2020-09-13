@@ -139,7 +139,9 @@ sop.render_document(program_name="MS",
 
 sop.save_file("final_sop.txt")
 ```
-PS: Though professors might find this amusing and may give you points for humour, we cannot guarantee that this version of your SOP would get you into an academic institute. (It might get you into other types of "institutes" *nudge* *nudge* *wink* *wink*)
+PS: Though professors might find this amusing and may give you points for humour, we cannot guarantee that this version of your SOP would get you into an academic institute. (It might get you into other types of "institutes" *nudge* *nudge* *wink* *wink*) 
+
+### Disclaimer: Da pimperz of SOPy aint gonna be held responsible fo' any shitty outcomes dis might cause yo' dirty ass.
 
 
 ## Credits
