@@ -2,7 +2,6 @@
 
 A package used to make writing SOPs for different programs easier. No more do you have to maintain separate copies and edit each and every one by one when you make minor changes. With the templating system of SOPy, you can write all of your SOPs at once.
 
-
 ## Setup
 
 ### Requirements
@@ -82,7 +81,7 @@ Now that we have the basic structure finished, lets take a look at how to popula
 
     sop.save_file("final_sop.txt")
     ```
-    
+
     Note how you can specify where all your templates are in the template_location argument. You don't have to follow the folder structure mentioned above, you can structure it however you want to.
 
     Running the above python code will render the final version of the SOP after substituting in all the variable names. Heres what the final output looks like.
@@ -110,3 +109,7 @@ I straight-up ludd dis program. I'ma be tha happiest thug on earth if I git dis 
 
 In conclusion, I wanna study all up in tha Stanford University. Blah blah blah, you git tha idea.
 ```
+
+## Credits
+
+This project was in collaboration with ma man [Sourav Johar](https://github.com/SouravJohar/).
