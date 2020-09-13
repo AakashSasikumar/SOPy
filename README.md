@@ -42,7 +42,8 @@ Now that we have the basic structure finished, lets take a look at how to popula
     ```text
     {% include "templates/intro.txt" %}
 
-    I really love this program. I will be the happiest person on earth if I get this program. Please let me in. LET ME IN!!!.
+    I really love this program. I will be the happiest person on earth
+    if I get this program. Please let me in. LET ME IN!!!.
 
     {% include "templates/remaining.txt" %}
     ```
@@ -56,7 +57,9 @@ Now that we have the basic structure finished, lets take a look at how to popula
     This is the first modular component of your SOP.
 
     ```text
-    Introduce yourself here. Add all the crap about why you wanna pursue graduate studies. Hence, the {{program_name}} and {{university_name}} is the ideal fit for me.
+    Introduce yourself here. Add all the crap about why you wanna pursue
+    graduate studies. Hence, the {{program_name}} and {{university_name}}
+    is the ideal fit for me.
     ```
 
     Notice the text encapsulated by the `{{ }}`. Here you can define variable names. Usually even though the intro is common for all SOPs, there are some places where you'd wanna mention the university name or what not. So you can define some variable names to fill in later through code.
@@ -66,7 +69,8 @@ Now that we have the basic structure finished, lets take a look at how to popula
     This is the last part of your SOP.
 
     ```text
-    In conclusion, I wanna study at the {{university_name}}. Blah blah blah, you get the idea.
+    In conclusion, I wanna study at the {{university_name}}.
+    Blah blah blah, you get the idea.
     ```
 
     Notice how you can reuse the same variables in different files.
@@ -89,11 +93,15 @@ Now that we have the basic structure finished, lets take a look at how to popula
     Running the above python code will render the final version of the SOP after substituting in all the variable names. Heres what the final output looks like.
 
     ```text
-    Introduce yourself here. Add all the crap about why you wanna pursue graduate studies. Hence, the MS and Stanford University is the ideal fit for me.
+    Introduce yourself here. Add all the crap about why you wanna pursue
+    graduate studies. Hence, the MS and Stanford University is the ideal
+    fit for me.
 
-    I really love this program. I will be the happiest person on earth if I get this program. Please let me in. LET ME IN!!!.
+    I really love this program. I will be the happiest person on earth
+    if I get this program. Please let me in. LET ME IN!!!.
 
-    In conclusion, I wanna study at the Stanford University. Blah blah blah, you get the idea.
+    In conclusion, I wanna study at the Stanford University.
+    Blah blah blah, you get the idea.
     ```
 
 > Note: You aren't limited to creating just two templates. You can create as many templates as you want, just make sure you include them properly in the final SOP file.
@@ -105,11 +113,17 @@ Are you tired of writing your SOP in a professional manner always? Enter [Gizoog
 Here is the "Gizooglified" version of the above example,
 
 ```text
-Introduce yo ass here, so peek-a-boo, clear tha way, I be comin' thru fo'sho fo' realz. Add all tha crap bout why you wanna pursue graduate studies yo. Hence, tha MS n' Stanford Universitizzle is tha ideal fit fo' mah dirty ass.
+Introduce yo ass here, so peek-a-boo, clear tha way, I be comin' thru
+fo'sho fo' realz. Add all tha crap bout why you wanna pursue graduate
+studies yo. Hence, tha MS n' Stanford Universitizzle is tha ideal fit
+fo' mah dirty ass.
 
-I straight-up ludd dis program. I'ma be tha happiest thug on earth if I git dis program. Please let me in. I aint talkin' bout chicken n' gravy biatch. LET ME IN!!!.
+I straight-up ludd dis program. I'ma be tha happiest thug on earth if I
+git dis program. Please let me in. I aint talkin' bout chicken n' gravy
+biatch. LET ME IN!!!.
 
-In conclusion, I wanna study all up in tha Stanford University. Blah blah blah, you git tha idea.
+In conclusion, I wanna study all up in tha Stanford University.
+Blah blah blah, you git tha idea.
 ```
 
 Here is how you would "gizooglify" your SOP,
