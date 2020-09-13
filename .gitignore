@@ -1,3 +1,6 @@
 .history
 .vscode
 SOPy
+sops
+*test*
+__pycache__
