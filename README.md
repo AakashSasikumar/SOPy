@@ -11,6 +11,12 @@ A package used to make writing SOPs for different programs easier. No more do yo
     pip install -e .
     ```
 
+    or install it from PyPi
+
+    ```bash
+    pip install sopy
+    ```
+
 ## Usage
 
 1. Identify parts of your SOP that would be common for all SOPs
