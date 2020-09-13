@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
@@ -12,7 +12,7 @@ setup(name='sopy',
       author='Aakash Sasikumar and Sourav Johar',
       author_email='aakash.sasikumar@protonmail.com',
       license='MIT',
-      packages=['./'],
+      packages=find_packages(),
       install_requires=[
           "jinja2",
           "beautifulsoup4"
