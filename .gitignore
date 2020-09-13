@@ -4,3 +4,6 @@ SOPy
 sops
 *test*
 __pycache__
+dist/
+sopy.egg-info
+build/
