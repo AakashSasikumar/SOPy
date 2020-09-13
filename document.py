@@ -32,7 +32,7 @@ class Document():
 
         self.template_location = template_location
 
-    def render_document(self, gizoogle=False, **kwargs):
+    def render_document(self, gizooglify=False, **kwargs):
         """Function to render the final document
 
         This function uses the Jinja engine to include templates and fill
@@ -40,7 +40,7 @@ class Document():
 
         Parameters
         ----------
-        gizoogle: bool, optional
+        gizooglify: bool, optional
             Boolean value indicating whether the final document is to be
             "gizooglified". Check out http://www.gizoogle.net/ for
             what this means.

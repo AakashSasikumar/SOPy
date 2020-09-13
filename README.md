@@ -110,6 +110,20 @@ I straight-up ludd dis program. I'ma be tha happiest thug on earth if I git dis 
 In conclusion, I wanna study all up in tha Stanford University. Blah blah blah, you git tha idea.
 ```
 
+Here is how you would "gizooglify" your SOP,
+
+```python
+from document import Document
+
+sop = Document("sops/sop.txt", template_location="sops")
+
+sop.render_document(program_name="MS",
+                    university_name="Stanford University",
+                    gizooglify=True)
+
+sop.save_file("final_sop.txt")
+```
+
 ## Credits
 
 This project was in collaboration with ma man [Sourav Johar](https://github.com/SouravJohar/).
