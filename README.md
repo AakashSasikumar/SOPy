@@ -108,7 +108,7 @@ Now that we have the basic structure finished, lets take a look at how to popula
 
 ## Gizoogle
 
-Wanna give your SOP a funny twist? We use [Gizoogle](http://www.gizoogle.net/) to make your SOP as if Snoop Dog had written it.
+Wanna give your SOP a funny twist? We use [Gizoogle](http://www.gizoogle.net/) to make your SOP as if Snoop Dogg had written it.
 
 Here is the "Gizooglified" version of the above example,
 
